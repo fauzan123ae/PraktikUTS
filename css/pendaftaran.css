@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+}
+a {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navigasi{
+    display: flex;
+    background-color:#3A6A59;
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.ling{
+    position: absolute;
+    right: 10px;
+    
+}
+.ling a{
+    color: rgb(235, 235, 235);
+}
+.navbar{
+    display: flex;
+    gap: 1em;
+    
+}
+.navbar li{
+    padding:5px 14px ;
+    padding: 5px 14px;
+    border-radius: 5px;
+    background-color: #A7A88A;
+    transition: background-color 0.3s ease;
+}
+.navbar li:hover{
+    background-color: #B9C8BC;
+    border-radius: 5px;
+}
+.dropdown{
+    display: none;
+    background-color: #A7A88A;
+    position: absolute;
+    top: 40px;
+    padding: 1em 0;
+    right: 45%;
+    border-radius: 8%;
+}
+.dropdown li{
+    width: 10em;
+    align-items: center;
+
+}
+.anggota:hover .dropdown{
+    display: block;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:  url('/gambar/5-Sage.webp');
+    background-position: center;
+    background-size: cover;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin-bottom: 300px;
+}
+h2 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="submit"] {
+    background-color: #3A6A59;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: #2b2b2b;
+}
+footer {
+    background-color: #3A6A59;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}

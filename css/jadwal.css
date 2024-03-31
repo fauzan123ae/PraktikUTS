@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+}
+a {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navigasi{
+    display: flex;
+    background-color:#3A6A59;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 5%;
+}
+.ling{
+    position: absolute;
+    right: 10px;
+    
+}
+.ling a{
+    color: rgb(235, 235, 235);
+}
+.navbar{
+    display: flex;
+    gap: 1em;
+}
+.navbar li{
+    padding:5px 14px ;
+    padding: 5px 14px;
+    border-radius: 5px;
+    background-color: #A7A88A;
+    transition: background-color 0.3s ease;
+}
+.navbar li:hover{
+    background-color: #B9C8BC;
+    border-radius: 5px;
+}
+.dropdown{
+    display: none;
+    background-color: #A7A88A;
+    position: absolute;
+    top: 40px;
+    padding: 1em 0;
+    right: 45%;
+    border-radius: 8%;
+}
+.dropdown li{
+    width: 10em;
+    align-items: center;
+
+}
+.anggota:hover .dropdown{
+    display: block;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:  url('/gambar/5-Sage.webp');
+    background-position: center;
+    background-size: cover;
+  }
+.jadwall table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 150px;
+}
+.jadwall th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+.jadwall th {
+    background-color: #f2f2f2;
+}
+.jadwall h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.jadwall td {
+    color: white;
+}
+
+footer {
+    background-color: #3A6A59;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
